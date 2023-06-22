@@ -42,7 +42,8 @@ CRCS portal includes various Features
     - Average Growth in Registration
     - Revenue
     - Stats
-![WhatsApp Image 2023-06-22 at 4 24 33 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/89634df2-d198-41b4-9919-d89e68f8a179)
+    ![WhatsApp Image 2023-06-22 at 4 24 33 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/89634df2-d198-41b4-9919-d89e68f8a179)
+    ![WhatsApp Image 2023-06-22 at 4 24 40 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/69274a85-005b-4309-b835-f62f242cc4c8)
 
 - Responsive Design: The Dashboard is designed to be responsive, providing an optimal viewing and interaction experience across a wide range of devices and screen sizes. The responsive design ensures that users can access and use the dashboard seamlessly from desktop computers, laptops, tablets, and mobile devices.
 
