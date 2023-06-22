@@ -17,70 +17,70 @@ const data = [
     {
       name: 'Agro',
       
-      pv: 52,
+      registrations: 52,
       
     },
     {
       name: 'Health',
-      pv: 9,
+      registrations: 9,
     },
     {
       name: 'Federation',
-      pv: 2,
+      registrations: 2,
       
     },
     {
       name: 'Housing',
       
-      pv: 5,
+      registrations: 5,
       
     },
     {
       name: 'Tourism',
       
-      pv: 1,
+      registrations: 1,
       
     },
     {
       name: 'Fisheries',
       
-      pv: 5,
+      registrations: 5,
       
     },
     {
       name: 'Construction',
       
-      pv: 1,
+      registrations: 1,
       
     },
     {
       name: 'Others',
       
-      pv: 3,
+      registrations: 3,
       
     },
     {
       name: 'Cooperative Bank',
       
-      pv: 10,
+      registrations: 10,
       
     },
     {
       name: 'Textile',
       
-      pv: 2,
+      registrations: 2,
       
     },
     {
       name: 'Credit',
       
-      pv: 1,
+      registrations: 1,
       
     },
     {
       name: 'Diary',
       
-      pv: 1,
+      registrations: 1,
       
     },
 
@@ -108,7 +108,7 @@ const ChartThree = () => {
           <Tooltip />
           <Legend />
           <Area dataKey="amt" fill="#8884d8" stroke="#8884d8" />
-          <Bar dataKey="pv" barSize={20} fill="#413ea0" />
+          <Bar dataKey="registrations" barSize={20} fill="#413ea0" />
           <Line dataKey="uv" stroke="#ff7300" />
         </ComposedChart>
       </ResponsiveContainer>
