@@ -6,6 +6,8 @@ import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalanceWalletOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
+import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
+import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
 
 function toNormalCase(word) {
   // Convert the word to lowercase
@@ -67,7 +69,7 @@ const Widget = ({ type }) => {
         link: `Total Registrations: ${widgetData ? widgetData.state_occurrence.state_occurrence : ""}`,
         diff: widgetData ? parseFloat(widgetData.state_percentage.percentage).toFixed(2) : "",
         icon: (
-          <ShoppingCartOutlinedIcon
+          <LeaderboardOutlinedIcon
             className="icon"
             style={{
               backgroundColor: "rgba(218, 165, 32, 0.2)",
@@ -87,7 +89,7 @@ const Widget = ({ type }) => {
           widgetData ? widgetData.sector_occurrence.sector_occurrence : ""
         }`,
         icon: (
-          <MonetizationOnOutlinedIcon
+          <EmojiEventsOutlinedIcon
             className="icon"
             style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
           />

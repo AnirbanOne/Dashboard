@@ -20,6 +20,12 @@
       padding: 5px;
       border-radius: 5px;
       cursor: pointer;
+      transition: .3s linear;
+    }
+
+    .link:hover{
+      background-color: green($color: #000000);
+      color: grey;
     }
   }
 
