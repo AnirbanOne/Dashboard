@@ -1,3 +1,4 @@
+import React from "react"
 import "./chart.scss";
 import {
   AreaChart,
@@ -9,18 +10,25 @@ import {
 } from "recharts";
 
 const data = [
-  { name: "January", Total: 1200 },
-  { name: "February", Total: 2100 },
-  { name: "March", Total: 800 },
-  { name: "April", Total: 1600 },
-  { name: "May", Total: 900 },
-  { name: "June", Total: 1700 },
+  { name: "0", Total: 0 },
+  { name: "2016-17", Total: 11 },
+  { name: "2017-18", Total: 16 },
+  { name: "2018-19", Total: 17 },
+  { name: "2019-20", Total: 19 },
+  { name: "2020-21", Total: 24 },
+  { name: "2021-22", Total: 61 },
 ];
 
-const Chart = ({ aspect, title }) => {
+
+const Chart = ({ title, aspect }) => {
+  
+  
   return (
     <div className="chart">
       <div className="title">{title}</div>
+  
+         
+
       <ResponsiveContainer width="100%" aspect={aspect}>
         <AreaChart
           width={730}

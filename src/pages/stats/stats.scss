@@ -1,0 +1,21 @@
+.stats {
+    display: flex;
+    // flex-direction: column;
+    // width: 100%;
+  
+    .statsContainer {
+      flex: 6;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column;
+    
+        .sidebar-container {
+          flex: 1;
+        }
+      }
+}
+
+.charts-display{
+    width: fit-content;
+    height: fit-content;
+}
