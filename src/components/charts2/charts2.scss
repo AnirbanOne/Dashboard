@@ -1,12 +1,11 @@
-.container{
-    height: 50%;
+.container {
+    height: 300px; /* Adjust the desired height for the chart */
     width: 100%;
-    overflow: none;
-    // margin-top: 100px;
-
+    display: flex;
+    margin-top: 50px; /* Adjust the top margin as needed */
+  
     @media (max-width: 768px) {
-        height: 40%;
-    width: 100%;
-    overflow: none;
-      }
-}
+      height: 200px; /* Adjust the desired height for smaller screens */
+    }
+  }
+  

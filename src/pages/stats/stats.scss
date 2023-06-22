@@ -1,10 +1,20 @@
 .stats {
     display: flex;
+   
+    
     // flex-direction: column;
     // width: 100%;
   
     .statsContainer {
       flex: 6;
+      padding: 5px;
+      text-align: center;
+      justify-content:center;
+
+      h3{
+        margin-top: 10px;
+        margin-bottom: -5px;
+      }
     }
     @media (max-width: 768px) {
         flex-direction: column;

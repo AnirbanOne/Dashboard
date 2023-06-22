@@ -89,7 +89,7 @@ const data = [
 const ChartThree = () => {
   return (
     <div className='container'>
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="80%" height="90%">
         <ComposedChart
           layout="vertical"
           width={500}
