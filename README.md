@@ -16,6 +16,7 @@ The CRCS Portal Dashboard is built using the following technologies:
     - JavaScript
     - React
     - React Style
+    - Express
 - Back-end:
     - Node.js
 - Database:
@@ -35,17 +36,31 @@ CRCS portal includes various Features
     - Data Exploration and Analysis
 
 - Key Metrics:
+    ![WhatsApp Image 2023-06-22 at 5 54 10 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/46504c25-ac81-402d-8c04-2701b928858a)
     - Total Societies
     - Leading State
     - Leading Sector
     - Returns
+    ![2](https://github.com/AnirbanOne/Dashboard/assets/124530952/bceacdec-88be-46cb-a8be-dd0588bc16f3)
     - Average Growth in Registration
     - Revenue
+    ![3](https://github.com/AnirbanOne/Dashboard/assets/124530952/30013d30-0552-40ad-8cd1-cc47d7365f67)
+    - User registration
+    ![WhatsApp Image 2023-06-22 at 6 27 45 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/0550ebbf-ddb2-4960-82a6-568f6dfe3e54)
     - Stats
     ![WhatsApp Image 2023-06-22 at 4 24 33 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/89634df2-d198-41b4-9919-d89e68f8a179)
     ![WhatsApp Image 2023-06-22 at 4 24 40 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/69274a85-005b-4309-b835-f62f242cc4c8)
 
 - Responsive Design: The Dashboard is designed to be responsive, providing an optimal viewing and interaction experience across a wide range of devices and screen sizes. The responsive design ensures that users can access and use the dashboard seamlessly from desktop computers, laptops, tablets, and mobile devices.
+    - Desktop view
+    ![WhatsApp Image 2023-06-22 at 5 54 10 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/46504c25-ac81-402d-8c04-2701b928858a)
+    ![WhatsApp Image 2023-06-22 at 6 20 18 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/d88d9d6d-a167-458e-88ad-1b02cefe2c81)
+    - Mobile view
+  
+    ![WhatsApp Image 2023-06-22 at 5 55 01 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/fd982400-c7bd-40b2-9eb3-14115bf06e3e)
+    ![WhatsApp Image 2023-06-22 at 5 55 42 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/1a6299ea-daba-411a-9e7f-5f9e63526480)
+    ![WhatsApp Image 2023-06-22 at 5 59 49 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/316df58c-768a-4ac3-97b8-1f522391fa1f)
+    - Light and Dark Mode
 
 - Data Analytics: Following queries in the the repository is responsible for the data analytics: 
     `api>routes>widgets.js`
@@ -114,6 +129,8 @@ CRCS portal includes various Features
     
 - User-Friendly Interface: The Dashboard is designed with a user-friendly interface, prioritizing ease of use, intuitiveness, and efficient interaction for users of varying technical backgrounds. The interface is designed to minimize the learning curve and enable users to navigate, understand, and utilize the features and functionalities of the dashboard with minimal effort.
     - Intuitive Navigation
+      
+    ![1](https://github.com/AnirbanOne/Dashboard/assets/124530952/242c7577-797e-4cb9-ad75-2d3a4618e3a0)
     - Clear and Concise Design
     - Consistent Design Patterns
 
