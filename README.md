@@ -14,8 +14,8 @@ The CRCS Portal Dashboard is built using the following technologies:
 - Front-end:
     - SASS
     - JavaScript
-    - React
-    - React Style
+    - React.js
+    - React Styled Components
     - Express
 - Back-end:
     - Node.js
@@ -48,8 +48,8 @@ CRCS portal includes various Features
     - User registration
     ![WhatsApp Image 2023-06-22 at 6 27 45 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/0550ebbf-ddb2-4960-82a6-568f6dfe3e54)
     - Stats
-    ![WhatsApp Image 2023-06-22 at 4 24 33 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/89634df2-d198-41b4-9919-d89e68f8a179)
-    ![WhatsApp Image 2023-06-22 at 4 24 40 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/69274a85-005b-4309-b835-f62f242cc4c8)
+    ![WhatsApp Image 2023-06-22 at 6 48 36 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/1c9b5b8d-4e70-4414-8662-4c29e57ae846)
+    ![WhatsApp Image 2023-06-22 at 6 50 31 PM](https://github.com/AnirbanOne/Dashboard/assets/124530952/2ec3ed29-3ad6-4418-a3fe-de7e7251b08b)
 
 - Responsive Design: The Dashboard is designed to be responsive, providing an optimal viewing and interaction experience across a wide range of devices and screen sizes. The responsive design ensures that users can access and use the dashboard seamlessly from desktop computers, laptops, tablets, and mobile devices.
     - Desktop view
