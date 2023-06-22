@@ -1,4 +1,3 @@
-
 # Dashboard for CRCS Portal
 This project is the Dashboard for the CRCS (Central Registrar of Cooperative Societies) Portal. This Dashboard gives an user friendly experience by giving access to various features of CRCS portal including:
 - User Registrar
@@ -7,24 +6,23 @@ This project is the Dashboard for the CRCS (Central Registrar of Cooperative Soc
 - Data of registered users
 - statistics - showing informative graphs 
 - Settings - helping user to manage portal according to them
-## Overview
 
+
+## Overview
 The CRCS Portal Dashboard is built using the following technologies:
 
 - Front-end:
-    - HTML
-    - CSS
-    - SCSS
+    - SASS
     - JavaScript
-    - React.js
-    - Chart.js (for data visualization)
+    - React
+    - React Style
 - Back-end:
     - Node.js
-    - Express
 - Database:
-    - MySQL (Data analytics)
-## Features
+    - mySQL
 
+
+## Features
 CRCS portal includes various Features 
 
 - Visualization: The CRCS Portal Dashboard incorporates various visualization techniques to present data, system statistics, and analytics in a visually compelling and easy-to-understand format. Visualizations enable users to grasp complex information quickly, identify patterns, and make informed decisions based on the data insights.
@@ -36,9 +34,16 @@ CRCS portal includes various Features
     - Collaboration and Communication
     - Data Exploration and Analysis
 
-- Key Metrics: 
+- Key Metrics:
+    - Total Societies
+    - Leading State
+    - Leading Sector
+    - Returns
+    - Average Growth in Registration
+    - Revenue
 
 - Responsive Design: The Dashboard is designed to be responsive, providing an optimal viewing and interaction experience across a wide range of devices and screen sizes. The responsive design ensures that users can access and use the dashboard seamlessly from desktop computers, laptops, tablets, and mobile devices.
+
 - Data Analytics: Following queries in the the repository is responsible for the data analytics: 
     `api>routes>widgets.js`
 
@@ -108,8 +113,9 @@ CRCS portal includes various Features
     - Intuitive Navigation
     - Clear and Concise Design
     - Consistent Design Patterns
-## Packages and Libraries Used
 
+
+## Packages and Libraries Used
 The following packages and libraries are used in this project:
 
 - `@emotion/react`: Provides CSS-in-JS capabilities for styling components.
@@ -124,8 +130,9 @@ The following packages and libraries are used in this project:
 - `sass`: CSS extension language for styling.
 - `styled-components`: Enables styled components using CSS-in-JS approach.
 - `web-vitals`: Library for measuring web performance metrics.
-## Installation
 
+
+## Installation
 To run the dashboard locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/AnirbanOne/Dashboard.git`
@@ -133,8 +140,9 @@ To run the dashboard locally, follow these steps:
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the dashboard.
-## Deployment
 
+
+## Deployment
 To deploy the dashboard for production, use the following command:
 
 ```shell
