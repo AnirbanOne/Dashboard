@@ -15,38 +15,75 @@ import "./chartThree.scss"
 
 const data = [
     {
-      name: 'Page A',
+      name: 'Agro',
       
-      pv: 800,
-      
-    },
-    {
-      name: 'Page B',
-      pv: 967,
-    },
-    {
-      name: 'Page C',
-      pv: 1098,
+      pv: 52,
       
     },
     {
-      name: 'Page D',
-      
-      pv: 1200,
+      name: 'Health',
+      pv: 9,
+    },
+    {
+      name: 'Federation',
+      pv: 2,
       
     },
     {
-      name: 'Page E',
+      name: 'Housing',
       
-      pv: 1108,
+      pv: 5,
       
     },
     {
-      name: 'Page F',
+      name: 'Tourism',
       
-      pv: 680,
+      pv: 1,
       
     },
+    {
+      name: 'Fisheries',
+      
+      pv: 5,
+      
+    },
+    {
+      name: 'Construction',
+      
+      pv: 1,
+      
+    },
+    {
+      name: 'Others',
+      
+      pv: 3,
+      
+    },
+    {
+      name: 'Cooperative Bank',
+      
+      pv: 10,
+      
+    },
+    {
+      name: 'Textile',
+      
+      pv: 2,
+      
+    },
+    {
+      name: 'Credit',
+      
+      pv: 1,
+      
+    },
+    {
+      name: 'Diary',
+      
+      pv: 1,
+      
+    },
+
   ];
 
 const ChartThree = () => {

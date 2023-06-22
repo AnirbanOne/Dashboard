@@ -71,12 +71,12 @@ const Sidebar = () => {
             <span>Delivery</span>
           </li>
           <p className="title">USEFUL</p>
-          {/* <Link to = "/stats">
+          <Link to = "/stats" style={{textDecoration: "none"}}>
           <li>
             <InsertChartIcon className="icon" />
             <span>Stats</span>
           </li>
-          </Link> */}
+          </Link>
           <li>
             <NotificationsNoneIcon className="icon" />
             <span>Notifications</span>
@@ -124,7 +124,12 @@ const Sidebar = () => {
           {/* ... */}
           <div className="top">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span className="logo">lamadmin</span>
+        <img
+              src="https://crcs.gov.in/public/landing/images/logo.png"
+              alt="Logo Govt"
+              className="img"
+            />
+          <div className="logo">CRCS</div>
         </Link>
       </div>
       <hr />
@@ -166,10 +171,10 @@ const Sidebar = () => {
             <span>Stats</span>
           </li>
           </Link>
-          {/* <li>
+          <li>
             <NotificationsNoneIcon className="icon" />
             <span>Notifications</span>
-          </li> */}
+          </li>
           {/* <p className="title">SERVICE</p>
           <li>
             <SettingsSystemDaydreamOutlinedIcon className="icon" />
@@ -179,16 +184,16 @@ const Sidebar = () => {
             <PsychologyOutlinedIcon className="icon" />
             <span>Logs</span>
           </li> */}
-          {/* <li>
+          <li>
             <SettingsApplicationsIcon className="icon" />
             <span>Settings</span>
-          </li> */}
+          </li>
           <p className="title">USER</p>
           <li>
             <AccountCircleOutlinedIcon className="icon" />
             <span>Profile</span>
           </li>
-          <Link to= "new">
+          <Link to= "new" style={{textDecoration: "none"}}>
           <li>
             <ExitToAppIcon className="icon" />
             <span>Logout</span>
