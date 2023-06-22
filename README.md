@@ -20,8 +20,9 @@ The CRCS Portal Dashboard is built using the following technologies:
     - Chart.js (for data visualization)
 - Back-end:
     - Node.js
+    - Express
 - Database:
-    - SqlDB
+    - MySQL (Data analytics)
 ## Features
 
 CRCS portal includes various Features 
