@@ -83,9 +83,9 @@ const data = [
 const ChartsTwo = () => {
   return (  
     <div className='container'> 
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer width="80%" height="90%">
         <BarChart
-          width={500}
+          width={300}
           height={300}
           data={data}
           margin={{

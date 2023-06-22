@@ -71,7 +71,7 @@ const New = ({ inputs, title }) => {
                   <input type={input.type} placeholder={input.placeholder} name={input.label} onChange={handleChange}/>
                 </div>
               ))}
-              <button onClick={handleClick}>Send</button>
+              <button onClick={handleClick}>Register</button>
             </form>
           </div>
         </div>
