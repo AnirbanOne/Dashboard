@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon api.js",
-    "build": "echo \"No build step required\""
+    "start": "nodemon api.js"
   },
   "keywords": [],
   "author": "",
