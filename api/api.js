@@ -22,8 +22,8 @@ app.use("/dashboard", formRoute);
 // ! it to the frontend.
 app.use("/dashboard", datatableRoute);
 
-app.use("/dashboard", widgetRoute);
+app.use("/dashboard", widgetRoute); 
 
-app.listen(8000, ()=>{
+app.listen(process.env.PORT || 8000, ()=>{
     console.log("Port connected!");
 })

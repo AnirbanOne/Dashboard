@@ -16,7 +16,7 @@ export const userColumns = [
 
 export const fetchData = async () => {
   try {
-    const response = await axios.get("http://localhost:8000/dashboard/datatable");
+    const response = await axios.get(`http://localhost:8000/dashboard/datatable`);
     const sampleData = response.data;
 
     const userRows = sampleData.map((dataItem) => ({

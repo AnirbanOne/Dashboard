@@ -26,7 +26,7 @@ const New = ({ inputs, title }) => {
   const handleClick = async (e) => {
     try {
       e.preventDefault();
-      await axios.post("http://localhost:8000/dashboard/user/new", input)
+      await axios.post(`http://localhost:8000/dashboard/user/new`, input);
       Navigate("/user");
     } catch (error) {
       console.log(error);
